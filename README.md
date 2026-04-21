@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white"/>
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
@@ -20,10 +19,10 @@
 
 ### What I Do
 
-I code paired with **Claude, GPT and Gemini** — from design to debugging.
+I pair with **Claude** to ship things fast — from design through debugging.
 I build **AI agents, web apps and small products** where an LLM is baked into the business logic, not bolted on the side.
 
-Hands-on with: **tool use** for agents, **multi-provider setups** (one interface, several models), **computer vision + LLM** pipelines, browser automation via Playwright.
+Hands-on with: **native tool use** and **prompt caching** for multi-step agents, **computer vision + LLM** pipelines, browser automation via Playwright, swapping model backends via Anthropic-compatible endpoints.
 
 ---
 
@@ -31,7 +30,7 @@ Hands-on with: **tool use** for agents, **multi-provider setups** (one interface
 
 | Project | Description | Stack |
 |---|---|---|
-| **[browser-agent](https://github.com/T1mkaa/browser-agent)** | AI agent for browser automation. Takes a task in plain text and solves it via tool use: clicks, typing, navigation. Works with three providers. | `TypeScript` `Playwright` `Claude` `OpenAI` `Gemini` |
+| **[browser-agent](https://github.com/T1mkaa/browser-agent)** | Autonomous browser agent. Takes a plain-English task and drives Chromium via native Claude tool use, with prompt caching, vision via screenshots, and safety checks before destructive actions. | `TypeScript` `Playwright` `Claude` `Anthropic SDK` |
 | **[dota-predict](https://github.com/T1mkaa/dota-predict)** | "Guess the kill moment" game based on Dota 2 match video. CV-based event detection plus an LLM for situation scoring. | `Python` `Flask` `Gemini` `SQLite` `CV` |
 
 ---
